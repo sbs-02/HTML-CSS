@@ -1,0 +1,22 @@
+-Primary colors in the RGB color wheel are the colors that, added together, create pure white light. These colors are red, green and blue.
+
+ In the RYB color wheel, primary colors are colors that can’t be mixed from other colors. There are three primary colors: red, yellow, and blue.
+
+-Secondary colors are colors that result from mixing two primary colors. There are three secondary colors. In the RGB color wheel, these are cyan, magenta 
+ and yellow. When you mix light, red and green make yellow, green and blue make cyan, and blue and red make magenta.
+
+ In the RYB color wheel, the secondary colors are purple (red mixed with blue), orange (red mixed with yellow), and green (yellow mixed with blue).
+
+-Tertiary colors are colors made by combining a secondary color with a primary color. There are six tertiary colors. In the RGB color wheel these are orange,
+ chartreuse green, spring green, azure, violet and rose.
+
+ In the RYB color wheel, the tertiary colors are red-orange, yellow-orange, yellow-green, blue-green, blue-violet, and red-violet.
+
+-A color wheel is a circle where similar colors, or hues, are near each other, and different ones are further apart. For example, pure red is between the hues
+ rose and orange.
+ Two colors that are opposite from each other on the color wheel are called complementary colors. If two complementary colors are combined, they produce gray.
+ But when they are placed side-by-side, these colors produce strong visual contrast and appear brighter.
+
+-Notice that the red and cyan colors are very bright right next to each other. This contrast can be distracting if it's overused on a website, and can make text hard to read
+ if it's placed on a complementary-colored background.
+ It's better practice to choose one color as the dominant color, and use its complementary color as an accent to bring attention to certain content on the page.
