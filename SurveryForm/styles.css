@@ -19,15 +19,16 @@ form {
   min-width: 300px;
   margin: 0 auto;
   padding-bottom: 2em;
+  padding-top: 1em;
 }
 
-fieldset {
+div {
   border: none;
   padding: 2rem 0;
   border-bottom: 3px solid #3b3b4f;
 }
 
-fieldset:last-of-type {
+div:last-of-type {
   border-bottom: none;
 }
 

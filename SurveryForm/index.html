@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset = "UTF-8"/>
+    <meta name="viewport" content="width = device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css"/>
+    <title>Start To Code-Form</title>
+  </head>
+  <body>
+    <h1 id="title">Introduction To Programming</h1>
+
+    <p id="description">Thank you for taking the time to help us improve the platform.</p>
+
+    <form method="post" id="survey-form">
+
+      <div class="form-group">
+        <label id="name-label" for="name">Name</label>
+          <input type="text" name="name" id="name" class="form-control" placeholder="Enter your name" required/>
+      </div>
+
+      <div class="form-control">
+        <label id="email-label" for="email">Email</label>
+          <input type="email" name="email" id="email" class="form-control" placeholder="Enter you email address"/ required>
+      </div>
+
+      <div class="form-control">
+        <label id="number-label" for="number">Number</label>
+          <input type="number" name="number" id="number"
+          class="form-control" placeholder="Enter your phone number" pattern="[0-9]{4}-[0-9]{3}-[0-9]{3}" min="0000000000" max="9999999999" required/>
+      </div>
+
+      <div class="form-control">
+        <label id="dropdown-label" for="dropdown">Which programming language would you like to practice?</label>
+          <select id="dropdown" name="dropdown">
+            <option value="">select one language</option>
+            <option value="1">Python</option>
+            <option value="2">Javascript</option>
+            <option value="3">Golang</option>
+            <option value="4">Java</option>
+          </select>
+      </div><br/>
+
+      <div class="form-control">
+        <legend>How would you like to get started?</legend>
+        <label for="start"><input type="radio" id="basics" name="start" value="start" checked/>Basics & Fundamentals</label>
+        <label><input type="radio" id="tasks" name="start" value="start"/>Tasks for Projects</label>
+        <label for="start"><input type="radio" id="projects" name="start" value="start"/>Real-Time Projects</label>
+      </div><br/>
+
+      <div class="form-control">
+        <legend>How would you describe your current role? (Multiple choices)</legend>
+          <label for="role"><input type="checkbox" id="student" name="role" class="inline" value="role"/>Student</label><br/>
+
+          <label for="role"><input type="checkbox" id="intern" name="role" class="inline" value="role" />Intern</label><br/>
+
+          <label for="role"><input type="checkbox" id="full-time job" name="role" class="inline" value="role"/>Full-time Job</label><br/>
+      </div>
+
+      <label for="suggestions">Any suggestions or reviews? <br/>
+        <textarea id="suggetsions" name="suggestions" rows="4" cols="60" ></textarea>
+      </label>
+
+      <label for="agreement" class="start">Start your coding journey! <br/> 
+        <input class="inline" id="submit" name="agreement" type="submit" value="Submit" required/>
+      </label>
+
+    </form>
+  </body>
+
+</html>
